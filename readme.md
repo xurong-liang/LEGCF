@@ -28,7 +28,7 @@ python3 engine.py --dataset_name gowalla --num_clusters 500 --num_composition_ce
       | l2 penalty factor        | 5           |
      | lr                       | 1e-3        |
       | assignment update freq   | every epoch |
-       | \#composition embs/entity | 2           |
+       | \#composition embs\/entity | 2           |
    | \#clusters                | 500         | 
         | init anchor weight $w_{ka}$ | 0.9 |
 2.  Yelp2020 & Amazon-book
