@@ -1,0 +1,11 @@
+numpy==1.23.1
+torch
+torchfm
+scipy
+tensorboardX
+dgl
+parse
+tqdm
+matplotlib
+seaborn
+scikit-learn
