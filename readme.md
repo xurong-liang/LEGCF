@@ -27,7 +27,7 @@ python3 engine.py --dataset_name gowalla --num_clusters 500 --num_composition_ce
    | GCN layer                | 3           |
    | l2 penalty factor        | 5           |
    | lr                       | 1e-3        |
-   | assignment update freq   | every epoch |
+   | assignment update freq $q$  | every epoch |
    | \#composition embs per entity $t$ | 2  |
    | \#clusters         $c$       | 500     | 
    | init anchor weight $w_{ka}$  | 0.9     |
