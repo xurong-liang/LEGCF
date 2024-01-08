@@ -30,9 +30,9 @@ python3 engine.py --dataset_name gowalla --num_clusters 500 --num_composition_ce
    | assignment update freq $q$  | every epoch |
    | \#composition embs per entity $t$ | 2  |
    | \#clusters         $c$       | 500     | 
-   | init anchor weight $w_{ka}$  | 0.9     |
+   | init anchor weight $w_{ka}$  | 0.5     |
    
-2.  Yelp2020 & Amazon-book
+2.  Yelp2020 
 
     | Hyperparam                   | Value       |
     |------------------------------|-------------|
@@ -42,4 +42,17 @@ python3 engine.py --dataset_name gowalla --num_clusters 500 --num_composition_ce
     | assignment update freq  $q$  | every epoch |
     | #composition embs per entity $t$ | 2       |
     | #clusters            $c$     | 500         |
-    | init anchor weight $w_{ka}$  | .9          |
+    | init anchor weight $w_{ka}$  | 0.6          |
+
+3. Amazon-book
+
+   | Hyperparam                   | Value       |
+    |------------------------------|-------------|
+    | GCN layer                    | 4           |
+    | l2 penalty factor            | 5           |
+    | lr                           | 1e-3        |
+    | assignment update freq  $q$  | every epoch |
+    | #composition embs per entity $t$ | 2       |
+    | #clusters            $c$     | 500         |
+    | init anchor weight $w_{ka}$  | 0.9          |
+
