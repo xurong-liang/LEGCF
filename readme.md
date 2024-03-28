@@ -1,6 +1,7 @@
 # Code repo for Lightweight Embeddings for Graph Collaborative Filtering (LEGCF)
 
-- Manuscript submitted to SIGIR'24.
+- The paper can be found [here](https://arxiv.org/abs/2403.18479).
+- Accepted by SIGIR'24.
 - Code structure adopted from [LightGCN](https://github.com/gusye1234/LightGCN-PyTorch).
 
 ## Dataset
